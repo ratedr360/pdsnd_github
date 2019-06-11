@@ -12,7 +12,7 @@ def get_filters():
     """
     Asks user to specify a city, month, and day to analyze.
     Returns:
-        (str) city - name of the city to analyze
+        (str) city - name of city
         (str) month - name of the month to filter by, or "None" to apply no month filter
         (str) day - name of the day of week to filter by, or "None" to apply no day filter
     """
@@ -86,7 +86,7 @@ def load_data(city, month, day):
     """
     Loads data for the specified city and filters by month and day if applicable.
     Args:
-        (str) city - name of the city to analyze
+        (str) city - name of city
         (str) month - name of the month to filter by, or "None" to apply no month filter
         (str) day - name of the day of week to filter by, or "None" to apply no day filter
     Returns:
@@ -222,7 +222,7 @@ def user_stats(df):
     print('-'*40)
 
 def user_data(df):
-    '''Display raw data based on city selection by user'''
+    '''Displays raw data based on user selection of city for analysis'''
     
     u_data = input('\n Would you like to see indiviudal trip data? Type - Yes/No\n').title()
     curr_row = 0
