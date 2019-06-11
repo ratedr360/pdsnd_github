@@ -14,7 +14,11 @@ CSV files-
 3. washington.csv
 
 ### Credits
+Websites
 Stackoverflow
 GeeksforGeeks
 
+Links
+https://stackoverflow.com/questions/19576116/how-to-add-multiple-files-to-git-at-the-same-time
+https://www.geeksforgeeks.org/python-read-csv-using-pandas-read_csv/
 
